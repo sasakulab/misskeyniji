@@ -178,6 +178,7 @@ function debug() {
 
 function misskeyNiji() {
   setQuery()
+  Utilities.sleep(5000)
   createNote()
 }
 
